@@ -248,8 +248,6 @@
     <!-- Product view -->
     <catalog_product_view translate="label">
         <reference name="root">
-            <remove name="left"/>
-            <remove name="right"/>
             <action method="setTemplate"><template>page/1column.phtml</template></action>
 
             <reference name="content">
